@@ -1,4 +1,4 @@
-# jjrmch — Backend Developer (Java · Spring)
+# Jaime Romero — Backend Developer (Java · Spring)
 
 *Building microservice systems end to end, and testing them properly.*
 *Construyo sistemas de microservicios de principio a fin y los testeo en serio.*
