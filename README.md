@@ -7,6 +7,10 @@
 
 A library management system built as a **Spring Cloud microservices** platform with a **React** frontend. It covers the whole domain: catalog and stock, sales, loans, reservations, fines, customers and authentication. The complete stack runs locally with a single `docker compose up`.
 
+| Dashboard | Sales |
+|---|---|
+| ![Dashboard](assets/02-dashboard.png) | ![Sales](assets/05-ventas.png) |
+
 ### Architecture
 
 ```mermaid
