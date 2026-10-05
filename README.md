@@ -3,6 +3,10 @@
 *Building microservice systems end to end, and testing them properly.*
 *Construyo sistemas de microservicios de principio a fin y los testeo en serio.*
 
+[![Release](https://img.shields.io/github/v/release/jjrmch/biblioteca-deploy?label=release&color=blue)](https://github.com/jjrmch/biblioteca-deploy/releases)
+![CI](https://github.com/jjrmch/biblioteca-deploy/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ## Featured project — Library management platform
 
 A library management system built as a **Spring Cloud microservices** platform with a **React** frontend. It covers the whole domain: catalog and stock, sales, loans, reservations, fines, customers and authentication. The complete stack runs locally with a single `docker compose up`.
