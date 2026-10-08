@@ -42,7 +42,7 @@ flowchart LR
 
 - **Stateless authentication with JWT**: `auth-service` issues the tokens; the gateway and the four domain services validate them independently (HS256, shared secret) and enforce role-based access (`ADMIN`, `BIBLIOTECARIO`, `CLIENTE`).
 - **Inter-service token propagation**: `transactions-service` calls `catalog-service` and `customer-service` with OpenFeign, forwarding the caller's `Authorization` header so each service applies its own rules.
-- **109 automated tests** across the backend: unit (JUnit 5 + Mockito) and integration (Spring Boot + MockMvc + **Testcontainers** with PostgreSQL), including a **concurrency test** proving stock never goes negative.
+- **158 automated tests** across the backend: unit (JUnit 5 + Mockito) and integration (Spring Boot + MockMvc + **Testcontainers** with PostgreSQL), including a **concurrency test** proving stock never goes negative.
 - **CI on GitHub Actions** for all eight repositories: build + tests on every push and pull request.
 - **Docker Compose deployment**: PostgreSQL, Eureka, gateway, five services and the frontend, with healthchecks and environment-based configuration.
 
@@ -75,4 +75,4 @@ The admin user is created on startup from `ADMIN_EMAIL` / `ADMIN_PASSWORD` in `.
 
 ## En español
 
-Desarrollador backend Java/Spring. Este perfil reúne un sistema de gestión de biblioteca construido con microservicios (Spring Cloud) y frontend en React: seguridad JWT validada en cada servicio, propagación del token entre microservicios con Feign, 109 tests con Testcontainers (incluido uno de concurrencia sobre el stock) y CI con GitHub Actions en los 8 repositorios. Los READMEs de cada repo están en español e incluyen instrucciones para levantar todo con Docker Compose.
+Desarrollador backend Java/Spring. Este perfil reúne un sistema de gestión de biblioteca construido con microservicios (Spring Cloud) y frontend en React: seguridad JWT validada en cada servicio, propagación del token entre microservicios con Feign, 158 tests con Testcontainers (incluido uno de concurrencia sobre el stock) y CI con GitHub Actions en los 8 repositorios. Los READMEs de cada repo están en español e incluyen instrucciones para levantar todo con Docker Compose.
