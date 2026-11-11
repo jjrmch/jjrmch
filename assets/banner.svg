@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Jaime José Romero Molina — Backend Developer</title>
+  <desc id="bannerDesc">Banner with the name Jaime José Romero Molina, backend developer, and the stack Java, Spring Boot, microservices and testing.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="0.6" stop-color="#0E1729"/>
+      <stop offset="1" stop-color="#111C33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.55">
+      <stop offset="0" stop-color="#4F46E5" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+  <rect width="1280" height="4" fill="url(#accent)"/>
+
+  <rect x="64" y="60" width="4" height="196" rx="2" fill="url(#accent)"/>
+
+  <text x="88" y="86" fill="#818CF8" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">BACKEND DEVELOPER</text>
+  <text x="88" y="148" fill="#F8FAFC" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.2">Jaime José</text>
+  <text x="88" y="206" fill="#F8FAFC" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.2">Romero Molina</text>
+  <text x="88" y="244" fill="#94A3B8" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="500">Java · Spring Boot · Microservices · Testing</text>
+  <text x="88" y="286" fill="#64748B" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13">Jerez de la Frontera, España · github.com/jjrmch</text>
+
+  <line x1="720" y1="52" x2="720" y2="268" stroke="#1E293B" stroke-width="1" opacity="0.8"/>
+
+  <circle cx="1035" cy="150" r="92" fill="#4F46E5" opacity="0.1"/>
+
+  <g fill="none" stroke="#334155" stroke-width="1.5" opacity="0.9">
+    <line x1="865" y1="96" x2="1035" y2="128"/>
+    <line x1="1035" y1="170" x2="820" y2="204"/>
+    <line x1="1035" y1="170" x2="940" y2="204"/>
+    <line x1="1035" y1="170" x2="1080" y2="204"/>
+  </g>
+
+  <g fill="none" stroke="#10B981" stroke-width="1.2" opacity="0.45">
+    <line x1="820" y1="240" x2="1010" y2="264"/>
+    <line x1="940" y1="240" x2="1010" y2="264"/>
+    <line x1="1080" y1="240" x2="1010" y2="264"/>
+  </g>
+
+  <g>
+    <rect x="790" y="54" width="150" height="42" rx="10" fill="#16233D" stroke="#334155"/>
+    <text x="865" y="80" text-anchor="middle" fill="#E2E8F0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">React panel</text>
+
+    <rect x="960" y="128" width="150" height="42" rx="10" fill="#4F46E5" stroke="#818CF8"/>
+    <text x="1035" y="154" text-anchor="middle" fill="#FFFFFF" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">gateway</text>
+
+    <rect x="770" y="204" width="100" height="36" rx="9" fill="#16233D" stroke="#334155"/>
+    <text x="820" y="227" text-anchor="middle" fill="#E2E8F0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600">auth</text>
+
+    <rect x="885" y="204" width="110" height="36" rx="9" fill="#16233D" stroke="#334155"/>
+    <text x="940" y="227" text-anchor="middle" fill="#E2E8F0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600">catalog</text>
+
+    <rect x="1010" y="204" width="140" height="36" rx="9" fill="#16233D" stroke="#334155"/>
+    <text x="1080" y="227" text-anchor="middle" fill="#E2E8F0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600">transactions</text>
+
+    <rect x="925" y="264" width="170" height="32" rx="8" fill="#0F2A2A" stroke="#10B981"/>
+    <text x="1010" y="285" text-anchor="middle" fill="#6EE7B7" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600">PostgreSQL 16</text>
+  </g>
+
+  <g fill="#475569">
+    <circle cx="865" cy="96" r="2.5"/>
+    <circle cx="1035" cy="128" r="2.5"/>
+    <circle cx="1035" cy="170" r="2.5"/>
+    <circle cx="820" cy="204" r="2.5"/>
+    <circle cx="940" cy="204" r="2.5"/>
+    <circle cx="1080" cy="204" r="2.5"/>
+    <circle cx="820" cy="240" r="2.5"/>
+    <circle cx="940" cy="240" r="2.5"/>
+    <circle cx="1080" cy="240" r="2.5"/>
+    <circle cx="1010" cy="264" r="2.5"/>
+  </g>
+</svg>
