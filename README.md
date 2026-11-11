@@ -23,7 +23,7 @@ I build Java/Spring backends end to end: API design, security, integration tests
 
 A library management system covering catalog and stock, sales, loans, reservations, fines, customers and role-based access — with stock that must never go negative. I built it as an 8-repo platform: six Spring Cloud services, a React panel and PostgreSQL, all started with Docker Compose.
 
-<img src="assets/02-dashboard.png" alt="Biblioteca dashboard" width="100%">
+<img src="assets/demo.gif" alt="Demo: dashboard, new sale and stock update" width="100%">
 
 | Catálogo | Ventas |
 |---|---|
