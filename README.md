@@ -36,7 +36,7 @@ A library management system covering catalog and stock, sales, loans, reservatio
 - **Testing:** 158 automated tests (JUnit 5, Mockito, Testcontainers), including a concurrency test that proves stock never goes negative.
 - **Delivery:** CI green on all eight repositories, release `v1.0.0`, healthchecks and Docker Compose.
 
-**Stack:** Java 21 · Spring Boot · Spring Cloud · Spring Security · OpenFeign · PostgreSQL · Testcontainers · Docker · React
+**Stack:** Java 17 · Spring Boot · Spring Cloud · Spring Security · OpenFeign · PostgreSQL · Testcontainers · Docker · React
 
 [Main repository](https://github.com/jjrmch/biblioteca-deploy) · [Frontend](https://github.com/jjrmch/biblioteca-frontend)
 
@@ -95,7 +95,7 @@ An AI chatbot ecosystem for the Erasmus+ office: a RAG assistant for students an
 
 | Area | Technologies |
 |---|---|
-| Backend | Java 21 · Spring Boot · Spring Cloud · Spring Security · JPA · OpenFeign · JUnit 5 · Mockito · Testcontainers |
+| Backend | Java 17 · Spring Boot · Spring Cloud · Spring Security · JPA · OpenFeign · JUnit 5 · Mockito · Testcontainers |
 | Data | PostgreSQL · SQL |
 | Frontend | React · Vite · Tailwind CSS |
 | Infrastructure | Docker Compose · GitHub Actions · CI/CD |
@@ -123,7 +123,7 @@ Graduado en Ingeniería Informática por la Universidad de Huelva. Mi TFG, un ec
 - **Biblioteca:** plataforma de microservicios Spring Cloud + React, 8 repositorios, 158 tests con Testcontainers, CI en GitHub Actions y Docker Compose.
 - **TFG Erasmus RAG Chatbot:** RAG + MCP con n8n, Qdrant, PostgreSQL y Ollama; desplegado en un servidor universitario y validado por la ORI.
 
-**Stack:** Java 21 · Spring Boot · Spring Cloud · Spring Security · PostgreSQL · Docker · GitHub Actions · React · n8n · Qdrant · Ollama  
+**Stack:** Java 17 · Spring Boot · Spring Cloud · Spring Security · PostgreSQL · Docker · GitHub Actions · React · n8n · Qdrant · Ollama  
 **Idiomas:** Español nativo · Inglés C1
 
 [LinkedIn](https://www.linkedin.com/in/jaime-jos%C3%A9-romero-molina-734258353/) · [Email](mailto:jaimejoseromeromolina@gmail.com) · [GitHub](https://github.com/jjrmch)
